@@ -1,0 +1,18 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="preferences">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Ralf Klammer</name>
+    <email>Your E-mail</email>
+    <years>2012</years>
+  </credit>
+  <desc>MapRoj is a small tool, that helps to test projections, reproject shapefiles and render shapes with mapnik. Not ready so far...3 weeks are not enough time for one person, that can only program in freetime ;-)</desc>
+</info>
+
+<title>Preferences</title>
+<p>This is the preferences page.</p>
+
+</page>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <!-- interface-requires chooseprojection_dialog 1.0 -->
+  <object class="ChooseprojectionDialog" id="chooseprojection_dialog">
+    <property name="can_focus">False</property>
+    <property name="border_width">5</property>
+    <property name="title" translatable="yes">Set or Choose projection</property>
+    <property name="icon">../media/maproj.svg</property>
+    <property name="type_hint">normal</property>
+    <child internal-child="vbox">
+      <object class="GtkBox" id="dialog-vbox1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox" id="dialog-action_area1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <property name="layout_style">center</property>
+            <child>
+              <object class="GtkLabel" id="label1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Proj-WKT</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkEntry" id="entry2">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="invisible_char">•</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+                <property name="non_homogeneous">True</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="btn_ok">
+                <property name="label">gtk-ok</property>
+                <property name="use_action_appearance">False</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_action_appearance">False</property>
+                <property name="use_stock">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="box1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <object class="GtkBox" id="box2">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkComboBoxText" id="comboboxtext1">
+                    <property name="width_request">0</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="entry_text_column">0</property>
+                    <property name="id_column">1</property>
+                  </object>
+                  <packing>
+                    <property name="expand">True</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="box3">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkImage" id="image1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="stock">gtk-file</property>
+                  </object>
+                  <packing>
+                    <property name="expand">True</property>
+                    <property name="fill">False</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <action-widgets>
+      <action-widget response="-5">btn_ok</action-widget>
+    </action-widgets>
+  </object>
+</interface>

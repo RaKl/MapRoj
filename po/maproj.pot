@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-10 15:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../maproj/__init__.py:34
+msgid "Show debug messages (-vv debugs maproj_lib also)"
+msgstr ""
+
+#: ../data/ui/PreferencesMaprojDialog.ui.h:1
+msgid "Maproj Preferences"
+msgstr ""
+
+#: ../data/ui/PreferencesMaprojDialog.ui.h:2
+msgid "_Example entry:"
+msgstr ""
+
+#: ../maproj.desktop.in.h:1 ../data/ui/MaprojWindow.ui.h:1
+msgid "Maproj"
+msgstr ""
+
+#: ../maproj.desktop.in.h:2
+msgid "Maproj application"
+msgstr ""
+
+#: ../data/ui/SetstyleDialog.ui.h:1
+msgid "Set a XML stylefile"
+msgstr ""
+
+#: ../data/ui/SetstyleDialog.ui.h:2
+msgid "Choose File"
+msgstr ""
+
+#: ../data/ui/SetstyleDialog.ui.h:3
+msgid ""
+"Add Projection\n"
+"to Stylefile\n"
+msgstr ""
+
+#: ../data/ui/SetstyleDialog.ui.h:6
+msgid "OK"
+msgstr ""
+
+#: ../data/ui/SetstyleDialog.ui.h:7 ../data/ui/TrynerrorDialog.ui.h:2
+msgid "Nothing Done!"
+msgstr ""
+
+#: ../data/ui/SetstyleDialog.ui.h:8
+msgid ""
+"Add Chosen  \n"
+"Shapefile to  \n"
+"Stylefile               "
+msgstr ""
+
+#: ../data/ui/TrynerrorDialog.ui.h:1
+msgid "tryNerror"
+msgstr ""
+
+#: ../data/ui/TrynerrorDialog.ui.h:3
+msgid "Enter a WKT-Projection and try it!"
+msgstr ""
+
+#: ../data/ui/TrynerrorDialog.ui.h:4
+msgid "Try"
+msgstr ""
+
+#. self.ui.label1.set_justify('GTK_JUSTIFY_RIGHT')
+#: ../data/ui/RenderDialog.ui.h:1
+msgid "Set image size"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:2
+msgid "Height"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:3
+msgid "Width"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:4
+msgid "Render it!"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:5
+msgid "Use extent of shapefile"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:6
+msgid "or"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:7
+msgid "Set individual extent"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:8
+msgid " lower left"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:9
+msgid "Longitude"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:10
+msgid "Latitude"
+msgstr ""
+
+#: ../data/ui/RenderDialog.ui.h:11
+msgid "upper right"
+msgstr ""
+
+#: ../data/ui/AboutMaprojDialog.ui.h:1
+msgid ""
+"# Copyright (C) 2012 Ralf Klammer <Ralf Klammer <maproj 0.2>>\n"
+"# This program is free software: you can redistribute it and/or modify it \n"
+"# under the terms of the GNU General Public License version 3, as "
+"published \n"
+"# by the Free Software Foundation.\n"
+"# \n"
+"# This program is distributed in the hope that it will be useful, but \n"
+"# WITHOUT ANY WARRANTY; without even the implied warranties of \n"
+"# MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR \n"
+"# PURPOSE.  See the GNU General Public License for more details.\n"
+"# \n"
+"# You should have received a copy of the GNU General Public License along \n"
+"# with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+
+#: ../data/ui/AboutMaprojDialog.ui.h:14
+msgid "Copyright (C) 2012 Ralf Klammer <Ralf Klammer <maproj 0.2>>"
+msgstr ""
+
+#: ../data/ui/AboutMaprojDialog.ui.h:15
+msgid "label"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:2
+msgid "File"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:3
+msgid "_1. Projection"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:4
+msgid "2. Shape"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:5
+msgid "3. Style"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:6 ../data/ui/SetprojectionDialog.ui.h:1
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:7
+msgid "Contents"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:8
+msgid "Status Area"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:9
+msgid " Name:"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:10
+msgid "Proj4:"
+msgstr ""
+
+#: ../data/ui/MaprojWindow.ui.h:11
+msgid "File:"
+msgstr ""
+
+#: ../data/ui/ChooseprojectionDialog.ui.h:1
+msgid "Set or Choose projection"
+msgstr ""
+
+#: ../data/ui/ChooseprojectionDialog.ui.h:2
+msgid "Proj-WKT"
+msgstr ""
+
+#: ../data/ui/SetprojectionDialog.ui.h:2
+msgid "Syntax"
+msgstr ""
+
+#: ../data/ui/SetprojectionDialog.ui.h:3
+msgid "Enter a new projection and press OK"
+msgstr ""
+
+#: ../data/ui/SetprojectionDialog.ui.h:4
+msgid "Name"
+msgstr ""
+
+#: ../data/ui/SetprojectionDialog.ui.h:5
+msgid "Projection as WKT"
+msgstr ""
+
+#: ../data/ui/SetprojectionDialog.ui.h:6
+msgid "Test Syntax"
+msgstr ""

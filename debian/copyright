@@ -1,0 +1,14 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: maproj
+Upstream-Contact: Ralf Klammer <Ralf Klammer <maproj 0.2>>
+Source: https://launchpad.net/maproj
+
+Files: *
+Copyright: (C)
+Copyright: (C) 2012 Ralf Klammer &lt;milkbread@freenet.de&gt;
+Copyright: (C) 2012 Ralf Klammer &lt;milkbread@freenet.de&gt;</property>
+Copyright: (C) 2012 Ralf Klammer &lt;milkbread@freenet.de&gt;</property><property name="website">https://launchpad.net/maproj</property><property name="can_focus">False</property>
+Copyright: (C) 2012 Ralf Klammer <milkbread@freenet.de>
+License: GPL-3
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-3 on Debian systems.

@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Maproj
+_Comment=Maproj application
+Categories=GNOME;Utility;
+Exec=maproj
+Icon=/usr/share/maproj/media/maproj.svg
+Terminal=false
+Type=Application

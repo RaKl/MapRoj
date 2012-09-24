@@ -1,0 +1,20 @@
+<Map background-color="rgb(0,0,0)" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+
+  <Style name="My Style">
+    <Rule>
+      <PolygonSymbolizer fill="rgb(255,100,0)" />
+      <LineSymbolizer stroke="rgb(0%,0%,0%)" stroke-width="0.2" />
+    </Rule>
+  </Style>
+
+  <Layer name="world" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>My Style</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">cache/reprojected/ne_110m_admin_0_countries.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
+
+
