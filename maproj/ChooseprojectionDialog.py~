@@ -25,7 +25,6 @@ gettext.textdomain('maproj')
 import os
 from maproj import functions as t
 
-
 from maproj.SetprojectionDialog import SetprojectionDialog
 
 class ChooseprojectionDialog(Gtk.Dialog):
